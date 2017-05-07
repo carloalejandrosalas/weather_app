@@ -1,0 +1,91 @@
+/* by Carlo Salas */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans+Condensed:300|Oswald');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.body{
+  background-color: #FEF3CC;
+}
+
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -100px;
+}
+.footer,
+.push {
+  height: 100px;
+}
+
+.logo{
+  color: #FCCF4D;
+}
+
+.titulo{
+  font-family: "Oswald",sans-serif;
+  font-size: 50px;
+  margin-bottom: 30px;
+  background-color:#22C7A9;
+  color: #fff;
+}
+
+.city{
+  font-family: "Open Sans Condensed",sans-serif;
+  color: #2DB6A3;
+}
+
+.time {
+  font-family: "Indie Flower",sans-serif;
+  color: #2DB6A3;
+}
+
+#desc{
+  font-size: 11px;
+  color: #969494;
+}
+
+.elements div{
+  font-size: 30px;
+}
+
+div{
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+h1{
+  margin-bottom: 100px;
+}
+
+
+footer{
+  margin-top: 60px;
+  padding: 20px;
+  color: #2DB6A3;
+}
+
+footer i{
+  color:#fc4d4d;
+}
+
+footer a {
+  color: #FCCF4D;
+  font-weight: bold;
+}
+
+.sun{
+  color: #FCCF4D;
+}
+
+#unidad {
+  color:#FCCF4D;
+}
